@@ -1,0 +1,28 @@
+thead {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+
+  color: black;
+}
+td {
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 10px;
+  font-family: sans-serif;
+  margin-left: 50px;
+}
+tbody {
+}
+. h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+button {
+  background-color: red;
+}
