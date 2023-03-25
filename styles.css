@@ -1,10 +1,7 @@
 p {
   font-family: 'montserrat', sans-serif;
 }
-a {
-  text-transform: uppercase;
-  font-family: 'black ops one', cursive;
-}
+
 .container-fluid {
   margin-top: 10px;
   text-align: center;
