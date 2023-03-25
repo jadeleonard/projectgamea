@@ -138,3 +138,8 @@ footer {
 }
 .image {
 }
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-family: 'black ops one', cursive;
+}
