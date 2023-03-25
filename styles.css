@@ -1,82 +1,143 @@
-h1 {
+p {
+  font-family: 'montserrat', sans-serif;
+}
+a {
   text-transform: uppercase;
+  font-family: 'black ops one', cursive;
+}
+.container-fluid {
+  margin-top: 10px;
+  text-align: center;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  text-transform: uppercase;
+.navbar-brand {
+  text-align: center;
 }
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  color: black;
-  text-decoration: none;
-  list-style: none;
-}
-nav ul li a {
-  display: flex;
-  justify-content: space-between;
+
+body {
+  background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 5px;
-  font-family: sans-serif;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
 }
 
-button {
-  border-radius: 10px;
-  border-style: none;
-  background-color: cyan;
-  color: white;
-  font-family: sans-serif;
-  font-weight: bold;
+.fio {
+  text-align: center;
+  margin: 310px;
 }
-button:hover {
-  color: red;
-  transform: translateY(-5px);
-  transform: matrix3d();
-}
-
-nav ul li a:hover {
-  opacity: ;
-  transform: translateY(-5px);
-}
-
-p2 {
-  font-family: sans-serif;
-  text-orientation: sideways;
-}
-h3 {
-  font-weight: bold;
-}
-
-chartable li a {
-  border: 1px solid black;
-}
-
-.warrior {
-  border: 1px solid black;
-  height: 300px;
-  width: 300px;
-}
-.magician {
-  border: 1px solid black;
-  height: 300px;
-  width: 300px;
-}
-.healer {
-  border: 1px solid black;
-  height: 300px;
-  width: 300px;
-}
-.arcer {
-  border: 1px solid black;
-  height: 300px;
-  width: 300px;
-}
-h3 {
+.introduction {
+  text-align: center;
   text-transform: uppercase;
+  font-family: 'montserrat', sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  color: linear-gradiant();
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background-image: linear-gradient(to right, #ff0000, #00ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #000000; /* Fallback color */
+}
+
+.register {
+  background-image: linear-gradient(
+    to right,
+    #1d2b64 0%,
+    #f8cdda 51%,
+    #1d2b64 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border: 1px solid transparent;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+}
+
+.register:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.documentation {
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.content-documentation {
+  margin-left: 10px;
+}
+.i {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 100px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.social-icons a img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.instagram {
+  background-color: #e4405f;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.social-icons a:hover {
+  transform: translateY(-5px);
+}
+.image {
 }
